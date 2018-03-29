@@ -66,6 +66,7 @@ export default class Analysis extends Component {
     });
   }
 
+
   handleChangeSalesType = (e) => {
     this.setState({
       salesType: e.target.value,
